@@ -1,0 +1,21 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Bocconi AI Buddy - backend"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    # Essential to run the backend and call OpenAI
+    "fastapi>=0.136",
+    "uvicorn[standard]>=0.46",
+    "pydantic>=2.13",
+    "openai>=2.33",
+    # Env loader for reading OPENAI_API_KEY from .env (build_index.py + main.py)
+    "python-dotenv>=1.2",
+    # Vector store: sqlite-vec (CONTRACTS.md §7)
+    "sqlite-vec>=0.1",
+    # Token-aware chunking (cl100k_base for text-embedding-3-large)
+    "tiktoken>=0.8",
+    # Retry policy for OpenAI rate limits / transient errors
+    "tenacity>=9.0",
+]

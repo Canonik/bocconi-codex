@@ -1,0 +1,27 @@
+warning: `VIRTUAL_ENV=/usr` does not match the project environment path `backend/.venv` and will be ignored; use `--active` to target the active environment instead
+# Eval mode: HTTP https://bocconi-buddy-canonik-production.up.railway.app
+# Cases: 20
+   S1 [en/computational]    pass  2.93s  v=relocation  -- v+k match
+   S2 [en/   actionable]    pass  3.05s  v=relocation  -- v+k match
+   S3 [it/computational]    pass  3.88s  v=relocation  -- v+k match
+   S4 [it/  informative]    pass  2.35s  v=life_on_campus  -- v+k match
+   S5 [en/   actionable]    pass  2.88s  v=life_on_campus  -- v+k match
+   S6 [en/computational]    pass  3.78s  v=study_abroad  -- v+k match
+   S7 [en/         trap]    pass  3.28s  v=study_abroad  -- trap: false-premise surfaced
+   S8 [en/  informative]    pass  3.17s  v=career_readiness  -- v+k match
+   S9 [en/         trap]    pass  3.48s  v=career_readiness  -- trap: false-premise surfaced
+  S10 [en/computational]    pass  3.17s  v=life_on_campus  -- v+k match
+   G1 [en/  informative]    pass  3.08s  v=relocation  -- v+k match
+   G2 [en/   actionable]    pass  3.68s  v=life_on_campus  -- v+k match
+   G3 [en/  informative]    pass  2.79s  v=career_readiness  -- v+k match
+   G4 [it/  informative]    pass  3.35s  v=life_on_campus  -- v+k match
+   G5 [en/computational]    pass  2.41s  v=career_readiness  -- v+k match
+   G6 [en/         trap]    pass  3.23s  v=career_readiness  -- trap: false-premise surfaced
+   G7 [it/   actionable]    pass  2.87s  v=relocation  -- v+k match
+   G8 [en/computational]    pass  2.86s  v=study_abroad  -- v+k match
+   G9 [en/   actionable]    pass  2.56s  v=career_readiness  -- v+k match
+  G10 [en/   actionable] partial  3.06s  v=career_readiness  -- v=False k=True
+
+# Total: pass=19  partial=1  abstain=0  wrong=0
+# Score (n=20): 195
+# EVAL.md written to /home/cano/github/bocconi-buddy-starter/EVAL.md

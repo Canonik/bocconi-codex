@@ -1,0 +1,109 @@
+[
+  {
+    "viewport": {
+      "name": "mobile-360",
+      "width": 360,
+      "height": 1900
+    },
+    "inner": {
+      "w": 360,
+      "h": 1900
+    },
+    "docScrollWidth": 360,
+    "bodyScrollWidth": 360,
+    "overflowX": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "fontsLoaded": [
+      "Cabinet Grotesk 400 normal",
+      "Cabinet Grotesk 500 normal",
+      "Cabinet Grotesk 700 normal",
+      "Cabinet Grotesk 900 normal",
+      "Boldonse 400 normal",
+      "Boldonse 400 normal"
+    ],
+    "screenshot": "/home/cano/github/bocconi-buddy-starter/screens/mobile-360.png",
+    "stateFlow": null,
+    "mockedFlow": null,
+    "resourcesFlow": {
+      "opened": true,
+      "links": 16,
+      "hasMap": false,
+      "panelOverflow": false
+    }
+  },
+  {
+    "viewport": {
+      "name": "mobile-414",
+      "width": 414,
+      "height": 1900
+    },
+    "inner": {
+      "w": 414,
+      "h": 1900
+    },
+    "docScrollWidth": 414,
+    "bodyScrollWidth": 414,
+    "overflowX": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "fontsLoaded": [
+      "Cabinet Grotesk 400 normal",
+      "Cabinet Grotesk 500 normal",
+      "Cabinet Grotesk 700 normal",
+      "Cabinet Grotesk 900 normal",
+      "Boldonse 400 normal",
+      "Boldonse 400 normal"
+    ],
+    "screenshot": "/home/cano/github/bocconi-buddy-starter/screens/mobile-414.png",
+    "stateFlow": null,
+    "mockedFlow": null,
+    "resourcesFlow": {
+      "opened": true,
+      "links": 16,
+      "hasMap": false,
+      "panelOverflow": false
+    }
+  },
+  {
+    "viewport": {
+      "name": "desktop-1024",
+      "width": 1024,
+      "height": 1100
+    },
+    "inner": {
+      "w": 1024,
+      "h": 1100
+    },
+    "docScrollWidth": 1024,
+    "bodyScrollWidth": 1024,
+    "overflowX": false,
+    "consoleErrors": [],
+    "consoleWarnings": [],
+    "fontsLoaded": [
+      "Cabinet Grotesk 400 normal",
+      "Cabinet Grotesk 500 normal",
+      "Cabinet Grotesk 700 normal",
+      "Cabinet Grotesk 900 normal",
+      "Boldonse 400 normal",
+      "Boldonse 400 normal"
+    ],
+    "screenshot": "/home/cano/github/bocconi-buddy-starter/screens/desktop-1024.png",
+    "stateFlow": {
+      "thinking": true,
+      "answered": true,
+      "error": false
+    },
+    "mockedFlow": {
+      "thinking": true,
+      "answered": true,
+      "error": false
+    },
+    "resourcesFlow": {
+      "opened": true,
+      "links": 16,
+      "hasMap": false,
+      "panelOverflow": false
+    }
+  }
+]

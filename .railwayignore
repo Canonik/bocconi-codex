@@ -1,0 +1,53 @@
+# .railwayignore — Railway upload exclusions.
+#
+# When `railway up` is run from the repo root, this overrides the parent
+# `.gitignore` which has `*.db` (would exclude the prebuilt RAG index).
+# We DELIBERATELY ship `backend/data/index/buddy.db` so the production
+# image has retrieval ready at startup (per AGENTS.md "Embedding strategy":
+# the index file is allowed in `.gitignore` but MUST ship in the image).
+
+# Secrets — NEVER upload
+.env
+.env.local
+.env.*.local
+
+# Frontend artifacts (frontend deploys as a separate service)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Docs and meta — not needed in the image
+*.md
+!backend/data/extra-sources.md
+!backend/data/README.md
+!backend/README.md
+.claude/
+.gitignore
+
+# Python virtual envs
+.venv/
+venv/
+env/
+ENV/
+backend/.venv/
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+
+# Test / linter caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Git metadata
+.git/
